@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object12",
-  "spriteId": null,
+  "name": "obj_amount_displayer",
+  "spriteId": {
+    "name": "spr_money_displayed",
+    "path": "sprites/spr_money_displayed/spr_money_displayed.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

@@ -1,0 +1,13 @@
+if(keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left))
+{
+	// Create a new coin slightly behind or above this one
+	instance_create_layer(Obj_spinning_coin.x,  Obj_spinning_coin.y, "Instances", Obj_falling_coin);
+	// Set a vertical speed (simulate dropping)
+	y=+vspeed
+	vspeed+=0.5
+	global.money-=1
+}
+// Destroy if it falls off screen
+if (y > room_height) {
+    instance_destroy(Obj_falling_coin);
+}
