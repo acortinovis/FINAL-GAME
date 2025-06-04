@@ -1,2 +1,2 @@
-global.money=25;
+global.available=25;
 global.saved=0;

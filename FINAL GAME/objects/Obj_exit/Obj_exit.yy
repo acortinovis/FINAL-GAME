@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object13",
-  "spriteId": null,
+  "name": "Obj_exit",
+  "spriteId": {
+    "name": "Spr_btn_exit_1",
+    "path": "sprites/Spr_btn_exit_1/Spr_btn_exit_1.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -21,7 +24,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":10,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

@@ -1,2 +1,2 @@
-hspeed=2.5;
+hspeed=1.5;
 
