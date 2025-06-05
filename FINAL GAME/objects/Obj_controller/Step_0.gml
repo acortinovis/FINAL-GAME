@@ -15,4 +15,4 @@ if(keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left))
 if (y > room_height) {
     instance_destroy(Obj_falling_coin);
 }
-
+alarm[0]=room_speed*5;
