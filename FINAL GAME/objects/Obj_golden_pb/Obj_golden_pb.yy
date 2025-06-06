@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object20",
+  "name": "Obj_golden_pb",
   "spriteId": null,
   "solid": false,
   "visible": true,

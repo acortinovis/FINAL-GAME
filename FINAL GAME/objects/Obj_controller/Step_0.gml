@@ -16,3 +16,4 @@ if (y > room_height) {
     instance_destroy(Obj_falling_coin);
 }
 alarm[0]=room_speed*5;
+rm_name=room_get_name(room)

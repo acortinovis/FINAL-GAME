@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object19",
-  "spriteId": null,
+  "name": "Obj_black_sides",
+  "spriteId": {
+    "name": "Spr_black_sides",
+    "path": "sprites/Spr_black_sides/Spr_black_sides.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
