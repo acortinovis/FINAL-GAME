@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj",
+  "name": "Obj_frame_shop",
   "spriteId": null,
   "solid": false,
   "visible": true,

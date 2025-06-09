@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Room5",
+  "name": "rm_shop",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
