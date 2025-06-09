@@ -17,3 +17,8 @@ if (y > room_height) {
 }
 alarm[0]=room_speed*5;
 rm_name=room_get_name(room)
+//if (global.available==0)
+//{
+//	room_goto()
+//}
+

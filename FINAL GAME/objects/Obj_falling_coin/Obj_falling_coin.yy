@@ -29,6 +29,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_piggy_bank","path":"objects/Obj_piggy_bank/Obj_piggy_bank.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_beer","path":"objects/Obj_beer/Obj_beer.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_tbl_centre","path":"objects/Obj_tbl_centre/Obj_tbl_centre.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_goden_pb","path":"objects/Obj_goden_pb/Obj_goden_pb.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
