@@ -1,0 +1,1 @@
+sprite_index=Spr_shop_button_2;
