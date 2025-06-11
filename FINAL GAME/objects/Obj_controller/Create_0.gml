@@ -1,3 +1,2 @@
-global.available=25;
-global.saved=0;
+change_room=false;
 global.moltiplicatore=1;
