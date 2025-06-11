@@ -4,3 +4,7 @@ if (rm_name="rm_level1")
 {
 	x+=1
 }
+if (rm_name="rm_level2")
+{
+	x+=1.5
+}

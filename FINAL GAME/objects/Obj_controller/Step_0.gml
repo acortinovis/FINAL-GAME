@@ -5,7 +5,7 @@ if(keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left))
 	if (!position_meeting(mouse_x, mouse_y, Obj_exit)) 
 	{
 	// Create a new coin slightly behind or above this one
-		if (rm_name!="rm_shop"&&rm_name!="rm_home1"&&global.available>0)
+		if (rm_name!="rm_shop"&&rm_name!="rm_home1"&&global.available>0&&rm_name!="rm_home2")
 		{
 			instance_create_layer(Obj_spinning_coin.x,  Obj_spinning_coin.y, "Instances", Obj_falling_coin);
 			// Set a vertical speed (simulate dropping)
@@ -23,7 +23,10 @@ if (y > room_height) {
 
 if (global.available==0)
 {
-	change_room=true;
-	alarm[1]=room_speed*1;
+	room_goto(rm_home2);
+	global.available=global.saved;
+	global.saved=0;
+	alarm[1]=150;
+	instance_create_layer(room_width/2,room_height/1.5,"Instances",Obj_level_completed)
 }
-
+instance_create_layer()

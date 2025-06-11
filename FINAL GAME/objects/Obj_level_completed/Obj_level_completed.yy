@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object45",
-  "spriteId": null,
+  "name": "Obj_level_completed",
+  "spriteId": {
+    "name": "Spr_level_completed",
+    "path": "sprites/Spr_level_completed/Spr_level_completed.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
