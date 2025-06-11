@@ -1,2 +1,6 @@
 alarm[0]=room_speed*22;
-global.confirm_rm1=false;
+if(global.confirm_rm1!=true)
+{
+	global.confirm_rm1=false;
+}
+

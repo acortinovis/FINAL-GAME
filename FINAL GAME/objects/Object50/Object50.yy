@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object46",
+  "name": "Object50",
   "spriteId": null,
   "solid": false,
   "visible": true,

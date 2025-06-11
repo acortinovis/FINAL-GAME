@@ -1,2 +1,2 @@
-
-global.moltiplicatore=1;
+global.prevroom=rm_home1;
+click_count=0;

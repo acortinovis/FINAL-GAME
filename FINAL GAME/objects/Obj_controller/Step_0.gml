@@ -23,10 +23,13 @@ if (y > room_height) {
 
 if (global.available==0)
 {
-	room_goto(rm_home2);
-	global.available=global.saved;
+	if(keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left))
+	{
+    click_count+=1
+	}
+	if (click_count=2) {
+    room_goto(rm_home2);
+	global.available+=global.saved;
 	global.saved=0;
-	alarm[1]=150;
-	instance_create_layer(room_width/2,room_height/1.5,"Instances",Obj_level_completed)
+	}
 }
-instance_create_layer()
