@@ -9,3 +9,7 @@ if (rm_name="rm_level2")
 {
 	x+=1.5
 }
+if(room=rm_level3)
+{
+	x+=2;
+}

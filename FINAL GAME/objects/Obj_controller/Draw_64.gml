@@ -17,3 +17,9 @@ if(rm_name="rm_level2")
 	draw_text(250, 215, "$" + string(global.saved));
 	draw_text(1530, 85, "x" + string(global.moltiplicatore));
 }
+if(rm_name="rm_level3")
+{
+	draw_text(340, 85, "$"+ string(global.available));
+	draw_text(340, 215, "$" + string(global.saved));
+	draw_text(1465, 90, "x" + string(global.moltiplicatore));
+}

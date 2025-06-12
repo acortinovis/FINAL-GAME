@@ -33,3 +33,4 @@ if (global.available==0)
 	global.saved=0;
 	}
 }
+
