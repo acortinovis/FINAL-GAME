@@ -18,10 +18,10 @@ if (global.confirm_rm5&&room==rm_home2&&global.prevroom==rm_level5)
 {
 	instance_create_layer(room_width/2,room_height/1.8,"Instances",Obj_level_completed)
 }
-if (global.confirm_rm6&&room==rm_home2&&global.prevroom==rm_level6) 
-{
-	instance_create_layer(room_width/2,room_height/1.8,"Instances",Obj_level_completed)
-}
+//if (global.confirm_rm6&&room==rm_home2&&global.prevroom==rm_level6) 
+//{
+//	instance_create_layer(room_width/2,room_height/1.8,"Instances",Obj_level_completed)
+//}
 
 
 

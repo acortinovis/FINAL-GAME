@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_mouse_tutorial",
   "spriteId": {
-    "name": "Sprite31",
-    "path": "sprites/Sprite31/Sprite31.yy",
+    "name": "Spr_mouse_tutorial",
+    "path": "sprites/Spr_mouse_tutorial/Spr_mouse_tutorial.yy",
   },
   "solid": false,
   "visible": true,

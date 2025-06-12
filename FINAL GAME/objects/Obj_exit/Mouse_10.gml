@@ -1,3 +1,1 @@
-sprite_index=Spr_btn_exit_2;
-
-
+sprite_index=Spr_exit_2;

@@ -1,2 +1,2 @@
-sprite_index=Spr_btn_exit_1;
+sprite_index=Spr_exit_1;
 

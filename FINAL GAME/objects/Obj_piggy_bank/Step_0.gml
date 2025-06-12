@@ -12,3 +12,11 @@ if(room=rm_level3)
 {
 	x+=2;
 }
+if(room=rm_level4)
+{
+	x+=2.5;
+}
+if(room=rm_level5)
+{
+	x+=3;
+}

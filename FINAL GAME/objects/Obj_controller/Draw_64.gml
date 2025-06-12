@@ -23,3 +23,16 @@ if(rm_name="rm_level3")
 	draw_text(340, 215, "$" + string(global.saved));
 	draw_text(1465, 90, "x" + string(global.moltiplicatore));
 }
+if(rm_name="rm_level4")
+{
+	draw_text(400, 85, "$"+ string(global.available));
+	draw_text(400, 215, "$" + string(global.saved));
+	draw_text(1350, 95, "x" + string(global.moltiplicatore));
+}
+if(rm_name="rm_level5")
+{
+	draw_text(460, 78, "$"+ string(global.available));
+	draw_text(460, 202, "$" + string(global.saved));
+	draw_text(1350, 95, "x" + string(global.moltiplicatore));
+}
+

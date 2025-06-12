@@ -17,7 +17,8 @@ if(keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left))
 	}
 }
 // Destroy if it falls off screen
-if (y > room_height) {
+if (y > room_height) 
+{
     instance_destroy(Obj_falling_coin);
 }
 
@@ -27,7 +28,7 @@ if (global.available==0)
 	{
     click_count+=1
 	}
-	if (click_count=2) {
+	if (click_count=3) {
     room_goto(rm_home2);
 	global.available+=global.saved;
 	global.saved=0;

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_keyboard_tut",
   "spriteId": {
-    "name": "Sprite32",
-    "path": "sprites/Sprite32/Sprite32.yy",
+    "name": "Spr_keyboard_tutorial",
+    "path": "sprites/Spr_keyboard_tutorial/Spr_keyboard_tutorial.yy",
   },
   "solid": false,
   "visible": true,
