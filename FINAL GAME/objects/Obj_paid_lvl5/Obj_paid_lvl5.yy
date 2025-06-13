@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object55",
-  "spriteId": null,
+  "name": "Obj_paid_lvl5",
+  "spriteId": {
+    "name": "Spr_paid_not",
+    "path": "sprites/Spr_paid_not/Spr_paid_not.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -21,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

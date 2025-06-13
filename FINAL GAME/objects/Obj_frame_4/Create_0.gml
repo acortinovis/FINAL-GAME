@@ -1,0 +1,1 @@
+global.molt_4_paid=false;

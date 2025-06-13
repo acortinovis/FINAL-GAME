@@ -1,7 +1,11 @@
-if (global.available>="120")
+if (global.available>=120&&!global.molt_35_paid)
 {
 	global.moltiplicatore=3.5;
 	global.available-=120;
+	global.molt_35_paid=true
+	global.molt_3_paid=true;
+	global.molt_2_paid=true;
+	global.molt_15_paid=true;
 	instance_create_layer(450, 785, "Instances_over", Obj_check_mark);
 }
 else

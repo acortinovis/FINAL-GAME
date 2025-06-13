@@ -18,8 +18,8 @@ if(global.confirm_rm5)
 {
     instance_create_layer(955, 750,"Instances_over",Obj_mini_check_mark);
 }
-//if(global.confirm_rm6)
-//{
-//    instance_create_layer(1450, 750,"Instances_over",Obj_mini_check_mark);
-//}
+if(global.confirm_rm6)
+{
+    instance_create_layer(1400, 750,"Instances_over",Obj_mini_check_mark);
+}
 

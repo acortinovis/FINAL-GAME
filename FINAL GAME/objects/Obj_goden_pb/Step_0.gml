@@ -20,3 +20,7 @@ if(room=rm_level5)
 {
 	x+=3;
 }
+if(room=rm_level6)
+{
+	x+=3.5;
+}

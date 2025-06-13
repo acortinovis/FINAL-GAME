@@ -1,0 +1,12 @@
+
+global.confirm_rm1=false;
+global.confirm_rm2=false;
+global.confirm_rm3=false;
+global.confirm_rm4=false;
+global.confirm_rm5=false;
+global.confirm_rm6=false;
+global.rm_2_paid=false;
+global.rm_3_paid=false;
+global.rm_4_paid=false;
+global.rm_5_paid=false;
+global.rm_6_paid=false;
