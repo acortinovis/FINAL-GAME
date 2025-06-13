@@ -1,1 +1,1 @@
-click_count=0;
+global.click_count=0;

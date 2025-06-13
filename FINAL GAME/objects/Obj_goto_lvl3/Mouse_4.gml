@@ -6,21 +6,27 @@ if(global.confirm_rm2)
 			{ 
 				global.rm_3_paid=true;
 				global.available-=100;
-				room_goto(rm_level3);
+				alarm[1]=room_speed*1;
+				audio_stop_all()
+				audio_play_sound(Snd_enter_room,1,false);
 			}
 			else
 			{ 
 				instance_create_layer(1400, 445, "Instances_over", Obj_x_still)
 				alarm[0]=45
+				audio_play_sound(Snd_negative,1,false);
 			}
 		}
 	else
 	{ 
 		room_goto(rm_level3);
+		audio_stop_all()
+		audio_play_sound(Snd_enter_room,1,false);
 	}
 }
 else
 { 
 	instance_create_layer(1400, 445, "Instances_over", Obj_x_still)
 	alarm[0]=45
+	audio_play_sound(Snd_negative,1,false);
 }

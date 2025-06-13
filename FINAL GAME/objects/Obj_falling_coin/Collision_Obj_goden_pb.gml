@@ -35,6 +35,7 @@ if(global.moltiplicatore==5)
 {
 	global.saved+=10
 }
+audio_play_sound(Snd_coin_gold,1,false);
 
 
 

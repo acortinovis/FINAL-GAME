@@ -3,6 +3,7 @@ if (message_index < array_length(messages)) {
 
     if (message_timer >= message_duration) {
         message_index += 1;
+		audio_play_sound(Snd_tut_msg,1,false);
         message_timer = 0;
     }
 }
