@@ -1,0 +1,1 @@
+audio_play_sound(Snd_tutorial,1,true)
