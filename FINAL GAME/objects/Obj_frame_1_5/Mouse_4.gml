@@ -1,4 +1,4 @@
-if (global.available>=30&&!global.molt_15_paid)
+if (global.available>=31&&!global.molt_15_paid)
 {
 	global.moltiplicatore=1.5;
 	global.available-=30;

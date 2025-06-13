@@ -2,10 +2,10 @@ if(global.confirm_rm3)
 { 
 	if (!global.rm_4_paid)
 		{ 
-			if(global.available>=120)
+			if(global.available>=251)
 			{ 
 				global.rm_4_paid=true;
-				global.available-=120;
+				global.available-=250;
 				room_goto(rm_level4);
 			}
 			else

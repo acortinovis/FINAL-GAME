@@ -1,7 +1,7 @@
-if (global.available>=250&&!global.molt_45_paid)
+if (global.available>=1001&&!global.molt_45_paid)
 {
 	global.moltiplicatore=4.5;
-	global.available-=250;
+	global.available-=1000;
 	global.molt_45_paid=true;
 	global.molt_4_paid=true;
 	global.molt_35_paid=true
