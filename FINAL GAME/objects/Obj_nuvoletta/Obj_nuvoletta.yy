@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_frame_2_5",
+  "name": "Obj_nuvoletta",
   "spriteId": {
-    "name": "Spr_frame_shop_white",
-    "path": "sprites/Spr_frame_shop_white/Spr_frame_shop_white.yy",
+    "name": "Spr_nuvoletta",
+    "path": "sprites/Spr_nuvoletta/Spr_nuvoletta.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,10 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "Snd_positive.wav",
-  "duration": 0.0,
+  "duration": 1.718753,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

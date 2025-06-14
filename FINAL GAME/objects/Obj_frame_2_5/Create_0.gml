@@ -1,1 +1,0 @@
-global.molt_25_paid=false;

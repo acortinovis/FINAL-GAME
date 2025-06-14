@@ -1,4 +1,3 @@
-
 global.confirm_rm1=false;
 global.confirm_rm2=false;
 global.confirm_rm3=false;
@@ -10,3 +9,11 @@ global.rm_3_paid=false;
 global.rm_4_paid=false;
 global.rm_5_paid=false;
 global.rm_6_paid=false;
+global.molt_15_paid=false;
+global.molt_2_paid=false;
+global.molt_25_paid=false;
+global.molt_3_paid=false;
+global.molt_35_paid=false;
+global.molt_4_paid=false;
+global.molt_45_paid=false;
+global.molt_5_paid=false;
