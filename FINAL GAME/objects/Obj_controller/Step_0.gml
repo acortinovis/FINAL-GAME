@@ -34,4 +34,11 @@ if (global.available==0)
 	global.saved=0;
 	}
 }
+if ((global.available+global.saved)>=2500)
+	{
+	audio_stop_all()
+	audio_play_sound(Snd_win,1,true)
+	room_goto(rm_finale);
+	}
+
 

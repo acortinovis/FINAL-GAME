@@ -31,14 +31,14 @@ if(rm_name="rm_level4")
 }
 if(rm_name="rm_level5")
 {
-	draw_text(460, 78, "$"+ string(global.available));
-	draw_text(460, 202, "$" + string(global.saved));
+	draw_text(455, 78, "$"+ string(global.available));
+	draw_text(455, 202, "$" + string(global.saved));
 	draw_text(1350, 95, "x" + string(global.moltiplicatore));
 }
 if(rm_name="rm_level6")
 {
-	draw_text(460, 78, "$"+ string(global.available));
-	draw_text(460, 202, "$" + string(global.saved));
-	draw_text(1350, 95, "x" + string(global.moltiplicatore));
+	draw_text(530, 78, "$"+ string(global.available));
+	draw_text(530, 202, "$" + string(global.saved));
+	draw_text(1270, 95, "x" + string(global.moltiplicatore));
 }
 
